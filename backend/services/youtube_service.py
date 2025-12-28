@@ -1,6 +1,6 @@
 import requests
 
-YOUTUBE_API_KEY = "AIzaSyAIZg5OP_IC4uipRsDMrmSihVIHn2L6CcY"
+YOUTUBE_API_KEY = "YOUTUBE_API_KEY"
 YOUTUBE_SEARCH_URL = "https://www.googleapis.com/youtube/v3/search"
 
 def fetch_youtube_videos(query: str, max_results: int = 2):
